@@ -1,0 +1,4 @@
+node_modules
+genfiles
+_test-output
+coverage
