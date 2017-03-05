@@ -1,8 +1,0 @@
-{
-  "server": {
-    "baseDir": ["web", "genfiles/web"],
-    "routes": {
-      "/node_modules": "node_modules"
-    }
-  }
-}

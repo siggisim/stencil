@@ -1,5 +1,12 @@
 # Stencil
 
+## Getting stared
+
+Run
+```
+npm install
+```
+
 ## Web client
 
 ## Server
