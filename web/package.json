@@ -6,9 +6,9 @@
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0",
     "build": "ng build",
-    "test": "export CHROME_BIN=\"chromium-browser\"; xvfb-run -f /tmp/xvfb ng test",
+    "test": "TMPDIR=\"/tmp/\"; CHROME_BIN=\"chromium-browser\"; xvfb-run ng test",
     "lint": "ng lint",
-    "e2e": "export CHROME_BIN=\"chromium-browser\"; xvfb-run -f /tmp/xvfb ng e2e -s"
+    "e2e": "TMPDIR=\"/tmp/\"; CHROME_BIN=\"chromium-browser\"; xvfb-run ng e2e -s"
   },
   "private": true,
   "dependencies": {
@@ -42,6 +42,6 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.4.2",
     "typescript": "~2.0.0",
-    "webdriver-manager": "^11.0.2"
+    "webdriver-manager": "^11.1.1"
   }
 }
