@@ -1,0 +1,14 @@
+{
+  "name": "stencil",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm -C web run start",
+    "build": "npm -C web run build",
+    "release": "npm -C web run release && cp -r web/dist server/assets",
+    "test": "npm -C web run test",
+    "lint": "npm -C web run lint",
+    "e2e": "npm -C web run e2e"
+  },
+  "private": true
+}

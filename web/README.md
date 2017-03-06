@@ -1,7 +1,7 @@
 # Stencil web server
 
 ## Development server
-Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:1337/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

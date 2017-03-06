@@ -1,11 +1,12 @@
 {
-  "name": "Stencil",
+  "name": "stencil-web",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0",
+    "start": "ng serve --host 0.0.0.0 --port 1337",
     "build": "ng build",
+    "release": "ng build -prod --aot",
     "test": "TMPDIR=\"/tmp/\"; CHROME_BIN=\"chromium-browser\"; xvfb-run ng test",
     "lint": "ng lint",
     "e2e": "TMPDIR=\"/tmp/\"; CHROME_BIN=\"chromium-browser\"; xvfb-run ng e2e -s"
